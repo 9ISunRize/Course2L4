@@ -44,6 +44,7 @@ public class CalculatorController {
         return createRs(num1, num2, '/', result);
     }
 
+
     private String createRs(int num1, int num2, char action, int result) {
         return String.format("%d %c %d = %d", num1, action, num2, result);
     }
